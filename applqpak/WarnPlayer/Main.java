@@ -93,7 +93,7 @@ public class Main extends PluginBase
           
             String name = args[0];
             
-            if(args.length == 1)
+            if(args.length == 2)
             {
             
               args[0] = "";
