@@ -153,7 +153,7 @@ public class Main extends PluginBase
         if(args.length == 0)
         {
         
-          sender.sendMessage(TextFormat.RED + "Invalid usage. Usage: " + this.WARNS_usage);
+          sender.sendMessage(TextFormat.RED + "Invalid usage. Usage: " + this.WARNS_USAGE);
         
         }
         else
