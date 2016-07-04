@@ -93,7 +93,13 @@ public class Main extends PluginBase
           
             String name = args[0];
             
-            if(args.length == 2)
+            if(args.length == 1)
+            {
+            
+              sender.sendMessage(TextFormat.RED + "Invalid usage. Usage: " + this.WARN_USAGE);
+            
+            }
+            else
             {
             
               args[0] = "";
@@ -133,12 +139,6 @@ public class Main extends PluginBase
                 }
               
               }
-            
-            }
-            else
-            {
-            
-              sender.sendMessage(TextFormat.RED + "Invalid usage. Usage: " + this.WARN_USAGE);
             
             }
           
